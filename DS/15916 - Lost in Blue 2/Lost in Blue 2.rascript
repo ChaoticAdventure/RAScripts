@@ -1462,7 +1462,7 @@ achievement(
     title = "Cartography", points = 10,
     description = "Dive and find every map.",
     id = 241877, badge = "362246", published = "8/21/2022 6:29:48 AM", modified = "6/3/2023 11:58:17 PM",
-    trigger = measured((picturebook_19MapA() + picturebook_19MapB() + picturebook_19MapC() + picturebook_19MapD()) == 4) &&
+    trigger = inGame() && measured((picturebook_19MapA() + picturebook_19MapB() + picturebook_19MapC() + picturebook_19MapD()) == 4) &&
               (prev(picturebook_19MapA()) + prev(picturebook_19MapB()) + prev(picturebook_19MapC()) +
               prev(picturebook_19MapD())) == 3
 )
