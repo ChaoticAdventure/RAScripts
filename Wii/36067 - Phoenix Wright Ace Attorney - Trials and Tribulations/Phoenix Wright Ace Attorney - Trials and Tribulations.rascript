@@ -619,7 +619,7 @@ achievement(
 
 achievement(
     title = "Cracking a Creative Into Kilter", points = 2, type="missable",
-    description = "[Episode 5] Listen to Franziska von Karma berate Larry over sketching in a notebook while pressing Larry's third testimony. She is right about this. Sorry, Larry!",
+    description = "[Episode 5] Listen to Franziska von Karma berate Larry over sketching in a notebook while pressing Larry's third testimony before revealing what he drew. She is right about this. Sorry, Larry!",
     id = 630834, badge = "717999", published = "8/15/2026 2:04:41 PM", modified = "8/15/2026 2:04:41 PM",
     trigger = statePartTextText(1537,17,5308595,5308586)
     //trigger = gamestate() == 1537 && currentEpisodePart() == 17 && prev(textId()) == 5308595 && textId() == 5308586
